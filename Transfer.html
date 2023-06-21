@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head"><br>
+        <h2 style="padding-left: 20px;"> < </h2>
+        <h3 style="text-align: center;margin-top: -22px;">Pay</h3>
+
+
+    </div>
+    <div class="Transfer">
+        <div class="recipient">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+        </div>
+        <p>Pay a mobile number</p>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+            <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+            </svg>
+        </div>
+    </div><br>
+    <p style="text-align: center;">or</p><br>
+    <p>Pay a person or company</p><br>
+    <div class="sendDiv">
+        <div class="grayborder">
+            <p>From</p>
+            <select name="" id="">
+                <option value="">Current Account *****2352</option>
+            </select>
+        </div><br>
+        <div class="grayborderb">
+            <p>To</p>
+            <select name="" id="">
+                <option value="">Payee Name</option>
+            </select>
+            <br>
+            <input type="number" placeholder="Routing number">
+            <div>
+                <input type="number" name="" id="" placeholder="Account number">
+            </div>
+        </div><br>
+        <div class="grayborder">
+            <p>Amount</p>
+            <input type="number" placeholder="Amount">
+        </div><br>
+        <div  class="grayborder">
+            <p>Reference</p>
+            <input type="text" placeholder="e.g Rent">
+        </div> <br>
+        <p>When would you like this to happen?</p><br>
+        <div class="grayborder">
+            <label for="">Now</label>
+            <input type="radio" name="" id="" style="height: 15px;"><br><br>
+            
+            <input type="date" name="" id="">
+        </div><br>
+
+    </div>
+    <button class="buutty" onclick="Message()">Continue</button>
+
+        <script>
+            function Message(){
+                alert("Transfer Failed, please visit the nearest bank branch around you")
+
+            }
+        </script>
+    
+</body>
+
+
+</html>
