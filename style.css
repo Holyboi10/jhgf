@@ -479,7 +479,7 @@ table {
 }
 @media(max-width:789px){
     .Navbar{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: 20px;
         width: 100%;
         height: 9vh;
